@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.9.0 on win32)" generated="20220604 20:53:23.847" rpa="false" schemaversion="3">
+<suite id="s1" name="Login success" source="C:\Users\LENOVO\PycharmProjects\QA_Pre_TesT\Tests\Login_success.robot">
+<test id="s1-t1" name="case 1 : Login Success" line="11">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>http://the-internet.herokuapp.com/login</arg>
+<arg>Chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220604 20:53:24.098" level="INFO">Opening browser 'Chrome' to base url 'http://the-internet.herokuapp.com/login'.</msg>
+<msg timestamp="20220604 20:53:27.888" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20220604 20:53:27.888" level="FAIL">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 99
+Current browser version is 102.0.5005.63 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x008D9943+2595139]
+	Ordinal0 [0x0086C9F1+2148849]
+	Ordinal0 [0x00764528+1066280]
+	Ordinal0 [0x007842C3+1196739]
+	Ordinal0 [0x0077FE37+1179191]
+	Ordinal0 [0x0077D6F1+1169137]
+	Ordinal0 [0x007B0530+1377584]
+	Ordinal0 [0x007B018A+1376650]
+	Ordinal0 [0x007AB806+1357830]
+	Ordinal0 [0x00786086+1204358]
+	Ordinal0 [0x00786F96+1208214]
+	GetHandleVerifier [0x00A7B232+1658114]
+	GetHandleVerifier [0x00B3312C+2411516]
+	GetHandleVerifier [0x0096F261+560433]
+	GetHandleVerifier [0x0096E366+556598]
+	Ordinal0 [0x0087286B+2173035]
+	Ordinal0 [0x008775F8+2192888]
+	Ordinal0 [0x008776E5+2193125]
+	Ordinal0 [0x008811FC+2232828]
+	BaseThreadInitThunk [0x77276739+25]
+	RtlGetFullPathName_UEx [0x77CF8FEF+1215]
+	RtlGetFullPathName_UEx [0x77CF8FBD+1165]
+</msg>
+<status status="FAIL" starttime="20220604 20:53:24.098" endtime="20220604 20:53:27.888"/>
+</kw>
+<kw name="Login">
+<arg>tomsmith</arg>
+<arg>SuperSecretPassword!</arg>
+<status status="NOT RUN" starttime="20220604 20:53:27.888" endtime="20220604 20:53:27.888"/>
+</kw>
+<status status="FAIL" starttime="20220604 20:53:24.098" endtime="20220604 20:53:27.888">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 99
+Current browser version is 102.0.5005.63 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x008D9943+2595139]
+	Ordinal0 [0x0086C9F1+2148849]
+	Ordinal0 [0x00764528+1066280]
+	Ordinal0 [0x007842C3+1196739]
+	Ordinal0 [0x0077FE37+1179191]
+	Ordinal0 [0x0077D6F1+1169137]
+	Ordinal0 [0x007B0530+1377584]
+	Ordinal0 [0x007B018A+1376650]
+	Ordinal0 [0x007AB806+1357830]
+	Ordinal0 [0x00786086+1204358]
+	Ordinal0 [0x00786F96+1208214]
+	GetHandleVerifier [0x00A7B232+1658114]
+	GetHandleVerifier [0x00B3312C+2411516]
+	GetHandleVerifier [0x0096F261+560433]
+	GetHandleVerifier [0x0096E366+556598]
+	Ordinal0 [0x0087286B+2173035]
+	Ordinal0 [0x008775F8+2192888]
+	Ordinal0 [0x008776E5+2193125]
+	Ordinal0 [0x008811FC+2232828]
+	BaseThreadInitThunk [0x77276739+25]
+	RtlGetFullPathName_UEx [0x77CF8FEF+1215]
+	RtlGetFullPathName_UEx [0x77CF8FBD+1165]
+</status>
+</test>
+<status status="FAIL" starttime="20220604 20:53:23.862" endtime="20220604 20:53:27.888"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Login success">Login success</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
