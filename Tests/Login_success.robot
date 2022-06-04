@@ -4,7 +4,7 @@ Library  SeleniumLibrary
 *** Variables ***
 ${USERNAME TB}   //*[@id="username"]
 ${PASSWORD TB}  //*[@id="password"]
-${LOGIN BUTTON}    //*[@id="login"]/button
+${LOGIN BUTTON}    //*[@id="login"]/button/i
 ${LOGOUT BUTTON}    //*[@id="content"]/div/a/i
 
 *** Test Cases ***
