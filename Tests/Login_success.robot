@@ -22,4 +22,4 @@ Login
     Click Element   ${LOGIN BUTTON}
     Sleep  3s
     Click Element   ${LOGOUT BUTTON}
-    Close
+    Close Browser
