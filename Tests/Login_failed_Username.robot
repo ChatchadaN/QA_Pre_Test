@@ -5,7 +5,6 @@ Library  SeleniumLibrary
 ${USERNAME TB}   //*[@id="username"]
 ${PASSWORD TB}  //*[@id="password"]
 ${LOGIN BUTTON}    //*[@id="login"]/button
-${LOGOUT BUTTON}    //*[@id="content"]/div/a/i
 
 *** Test Cases ***
 case 1 : Login Success
@@ -21,5 +20,4 @@ Login
     Sleep  3s
     Click Element   ${LOGIN BUTTON}
     Sleep  3s
-    Click Element   ${LOGOUT BUTTON}
     Close Browser
