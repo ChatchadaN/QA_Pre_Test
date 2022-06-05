@@ -7,7 +7,7 @@ ${PASSWORD TB}  //*[@id="password"]
 ${LOGIN BUTTON}    //*[@id="login"]/button
 
 *** Test Cases ***
-case 1 : Login Success
+case 3 : Login Failed Username not found 
     Open Browser  http://the-internet.herokuapp.com/login  Chrome
     Login  tomholland  Password!
 
